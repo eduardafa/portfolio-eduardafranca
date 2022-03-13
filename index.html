@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevEduardaFrança Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="assets/fonts/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo_dev_eduarda.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">O que eu faço</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Meus projetos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Olá, Eu sou <strong>Eduarda França</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full Stack Dev Jr</p>
+            <img src="img/dev_eduardafranca.jpg" alt="foto de Eduarda sorrindo" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">O que eu faço</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Desenvolvimento web</h3>
+                    <h4>Front-End e Back-End</h4>
+                    <p>Sou uma profissional da Engenharia Civil em transição de carreira. Estudante dedicada e sempre motivada a aprender. Atualmente, faço parte do Parte do Programa Desenvolve 2022 do Grupo Boticário em parceria com a plataforma Alura, onde estou me dedicando diariamente para me estabelecer na área de Desenvolvimento Web como Full Stack.<br>Apta a construir sites básicos, landing pages, páginas de login, formulários aliando os conhecimentos adquiridos até aqui (HTML, CSS, JavaScript, Git, GitHub, SQL, MySQL, etc) à prática da profissão de desenvolvedora web.</p>
+                </div>
+            </div>
+            
+            <a href="#work" class="btn">Meus projetos</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Quem eu sou</h2>
+           <p class="section__subtitle section__subtitle--about">Full Stack Developer Jr</p>
+           
+           <div class="about-me__body">
+                <p>Me chamo Eduarda França, sou Engenheira Civil com sólida experiência na área desde 2016, especialista em Estruturas de Concreto e aluna de mestrado da área de Gerenciamento e Simulação de Reservatórios de Petróleo pela Universidade Federal de Pernambuco (UFPE).</p>
+                <p>Meu interesse pela programação surgiu durante o desenvolvimento dos meus estudos para a dissertação, pois trabalho na área de Otimização Computacional. Nessa área fui responsável por desenvolver scripts que me traziam soluções melhores para o meu problema a partir da utilização de um algoritmo de otimização.</p>
+                <p>Esses anos de estudos no mestrado me aproximaram da ideia de mudar de carreira, pois a programação me permitiu trabalhar, pela primeira vez, fora do meu escopo principal que sempre foi a área de Estruturas. Pude enxergar quão completa, e aplicável, é essa minha nova área de interesse. Portanto, estou buscando diariamente o conhecimento necessário para me estabelecer na área de Desenvolvimento Web como Desenvolvedora Full Stack, meu foco e objetivo principal.</p>
+                <p>Meu currículo está disponível para visualização <a class="link_project" href="https://resume-eduardafranca.netlify.app"><strong>aqui</strong></a>.</p>
+           </div>
+           
+           <img src="img/dev_eduarda.jpg" alt="eduarda" class="about-me__img">
+
+           <div>
+                <h3 class="skills">Hard Skills</h3>
+                <ul class="hard-skills">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>SQL/MySQL</li>
+                </ul>
+           </div>
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Meus projetos</h2>
+            <p class="section__subtitle section__subtitle--work">[clique abaixo para mais detalhes]</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item01.html" class="portfolio__item">
+                    <img src="img/project_login-page_main.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item02.html" class="portfolio__item">
+                    <img src="img/project_engineering-company_main.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/project_future.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <h2 class="section__title section__title--contact">Contato</h2>
+            <p>Entre em contato comigo pelos telefones (e também whatsapps), e-mail ou redes sociais abaixo.</p><br>
+            <a href="https://api.whatsapp.com/send?phone=+5586999691842&text=Oi! Vi seu portfólio e gostei. Podemos conversar?" class="footer__link"><i class="icon-whatsapp"></i> +55 86 9 9969-1842</a><br>
+            <a href="https://api.whatsapp.com/send?phone=+5551983471574&text=Oi! Vi seu portfólio e gostei. Podemos conversar?" class="footer__link"><i class="icon-whatsapp"></i> +55 51 9 8347-1574</a><br>
+            <a href="mailto:eduardafandrade@gmail.com" class="footer__link"><i class="icon-mail"></i> eduardafandrade@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/eduardandrade">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/eduardafa">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
