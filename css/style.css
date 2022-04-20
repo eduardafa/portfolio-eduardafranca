@@ -43,6 +43,7 @@
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
     }
+
 }
 
 html {
@@ -298,6 +299,7 @@ header {
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+
 }
 
 
@@ -406,6 +408,13 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.portfolio-games {
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 15rem 0;
+}
+
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
@@ -500,8 +509,13 @@ header {
 .hard-skills {
     margin: 2rem 0 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.portfolio-language {
+    font-size: 1.2rem;
+    color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -512,6 +526,14 @@ header {
     .hard-skills {
         flex-direction: column;
     }
+
+    .portfolio-games {
+        display: flex;
+        flex-direction: column;
+        max-width: auto;
+        margin: 0 15% 0;
+    }
+
 }
 
 
